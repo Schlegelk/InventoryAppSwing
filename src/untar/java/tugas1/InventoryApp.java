@@ -16,12 +16,11 @@ public class InventoryApp extends JFrame {
     private JButton btnRemove;
 
     public InventoryApp() {
-        super("Inventory App (Memory Only");
+        super("Inventory App (Memory Only)");
 
         tableModel = new ProductTableModel();
 
         initUI();
-        initActions();
 
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(720, 520);

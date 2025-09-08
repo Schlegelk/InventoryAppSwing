@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public class ProductTableModel extends AbstractTableModel {
     private final ArrayList<ProductModel> products;
-    private final String[] columnNames = {"Code", "Name", "Qty", "Price"};
+    private final String[] columnNames = {"Kode", "Nama", "Qty", "Harga"};
 
     public ProductTableModel() {
         products = new ArrayList<>();
