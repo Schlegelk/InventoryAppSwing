@@ -44,7 +44,7 @@ public class ProductTableModel extends AbstractTableModel {
 
     // Method untuk hapus produk
     public void removeProduct(int index) {
-        if (index >- 0 && index < products.size()) {
+        if (index >= 0 && index < products.size()) {
             products.remove(index);
             fireTableRowsDeleted(index, index);
         }
